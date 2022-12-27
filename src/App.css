@@ -1,0 +1,126 @@
+.bgg {
+    background-image: url("img/v870-tang-36.jpg");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /*filter: blur(1px);*/
+    /*-webkit-filter: blur(1px);*/
+
+}
+.text {
+    color: #0a0a2a;
+    /*font-weight: 500;*/
+}
+.color {
+    font-family: 'Roboto', sans-serif;
+    color: #656565;
+}
+.bg-color-active {
+    background: #78bb4b !important;
+}
+.bg_color_1 {
+    background: #d2ebd9;
+}
+.w-95 {
+    width: 95%;
+}
+.w-92 {
+    width: 92%;
+}
+.font_announce {
+    font-size: 11.5px;
+    font-weight: 500;
+}
+.font_title {
+    font-size: 15px;
+    font-weight: 500;
+    color: #656565;
+
+}
+.w-60 {
+    width: 55%;
+}
+.bt {
+    border: 1px solid #78bb4b;
+}
+.bg-color {
+    background: white !important;
+}
+.text-button {
+    font-size: 11px !important;
+    font-weight: 500 !important;
+;
+}
+.text_p {
+    font-size: 12px !important;
+}
+.text-13 {
+    font-size: 13.5px !important;
+    font-weight: 400 !important;
+}
+.mt-none {
+    margin-top: -17px;
+}
+.bg-red{
+    background-color: #fb3259 !important;
+    border: 1px solid #fb3259 !important;
+}
+.text-color {
+    color: #78bb4b;
+    font-weight: 500;
+}
+.error-msg {
+    margin-top: 5px ;
+    font-size: 12px;
+    width: 100%;
+    color: red;
+    font-weight: 500;
+}
+.border-r {
+    border-right: solid 1px lightgrey ;
+}
+.text-14 {
+    font-size: 14px !important;
+}
+.mr-none {
+    margin-right: -20px;
+    margin-left: 10px;
+}
+.mt-10 {
+    margin-top: -10px;
+}
+.cursor {
+    cursor: pointer;
+}
+.border_bottom {
+    border-bottom: 2px solid #78bb4b;
+    border-radius: 2px 2px;
+}
+@media only screen and (max-width: 768px) {
+    .main{
+        width: 95%;
+        margin: 1.75rem auto;
+    }
+    .sub_form {
+        display: block !important;
+    }
+    .margin {
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .sub_form {
+        display: block !important;
+    }
+    .margin {
+        margin-left: 20px;
+    }
+    .border-r {
+        border-right: none;
+        border-bottom: solid 1px #78bb4b ;
+        box-shadow: 0px 5px 5px -5px #333;
+        border-radius: 4px;
+    }
+}
+
